@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Mentes Saudáveis</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #77aaff;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #77aaff 1px solid;
+        }
+        .dark {
+            padding: 15px;
+            background: #333;
+            color: #fff;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Mentes Saudáveis</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#recursos">Recursos Educacionais</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="container">
+        <img src="URL_DA_IMAGEM_HOME.jpg" alt="Imagem Home">
+        <h2>Bem-vindo ao Mentes Saudáveis</h2>
+        <p>Este é um projeto educacional criado por estudantes durante nossa feira de ciências, dedicado a promover o conhecimento sobre saúde mental e bem-estar emocional. Aqui, você encontrará informações e dicas valiosas para uma mente mais saudável. Lembramos sempre da importância de procurar um profissional qualificado para qualquer questão relacionada à saúde mental.</p>
+ (secção) 
+
+ * secção id= "sobre-nos" classe="conteúdo do contentor"> 
+         <img src="URL_DA_IMAGEM_SOBRE_NOS.jpg" alt="Imagem Sobre Nós"> 
+         <h2>Sobre Nós</h2> 
+         <h3>Nosso Projeto</h3> 
+          <p>O Mentes Saudáveis é um blog educacional criado por um grupo de estudantes apaixonados por promover a saúde mental. Nossa intenção é compartilhar conhecimentos e recursos úteis sobre bem-estar emocional e incentivar todos a buscar uma vida mais equilibrada.</p>  
+         <h3>Nossa Missão</h3> 
+         <p>Educar e conscientizar sobre a importância da saúde mental, oferecendo informações práticas e dicas para melhorar o bem-estar emocional.</p> 
+         <h3>Nossa História</h3> 
+         <p>O Mentes Saudáveis nasceu durante uma feira de ciências, onde percebemos a necessidade de falar mais sobre saúde mental de maneira acessível e educativa. Desde então, estamos comprometidos em compartilhar tudo o que aprendemos.</p> 
+ (secção) 
+
+  * secção id= "blog" class= "conteúdo de contentores">  
+          <img src="URL_DA_IMAGEM_BLOG.jpg" alt="Imagem Blog">  
+ (h2) Blog</h2> 
+          <h3>Artigos Recentes</h3>  
+          <h4>1. Como Lidar com a Ansiedade no Dia a Dia</h4>  
+                  <p>A ansiedade é uma resposta natural ao estresse, mas quando se torna excessiva, pode prejudicar nossa qualidade de vida. Descubra técnicas para gerenciar a ansiedade e viver de forma mais tranquila. <strong>Lembre-se: procurar um profissional é sempre importante.</strong></p>          
+          <h4>2. Dicas para Melhorar a Qualidade do Sono</h4>  
+          <p>O sono é essencial para a saúde mental. Veja como hábitos simples podem melhorar significativamente sua qualidade de sono e, consequentemente, sua saúde geral. <strong>Para problemas persistentes, procure um profissional.</strong></p>  
+          <h4>3. Mindfulness: O Poder do Momento Presente</h4>  
+          <p>Aprenda sobre a prática de mindfulness e como ela pode ajudar a reduzir o estresse e aumentar o bem-estar emocional. <strong>Mindfulness pode ser uma ótima prática, mas um profissional pode orientar melhor.</strong></p>  
+ (secção) 
+
+  * secção id= "recursos" classe= "conteúdo do contentor">  
+          <img src="URL_DA_IMAGEM_RECURSOS.jpg" alt="Imagem Recursos">  
+          <h2>Recursos Educacionais</h2>  
+          <h3>Guias Práticos</h3>  
+          <p><strong>Meditações Guiadas:</strong> Encontre meditações guiadas para relaxamento, foco e sono. <strong>A orientação de um profissional pode potencializar os benefícios.</strong></p>  
+          <p><strong>Testes de Autoavaliação:</strong> Avalie seu nível de estresse, ansiedade e depressão com nossos testes gratuitos. <strong>Os resultados podem indicar a necessidade de procurar um profissional.</strong></p>  
+          <p><strong>Técnicas de Relaxamento:</strong> Aprenda técnicas simples de relaxamento que podem ser feitas em casa. <strong>Para orientação mais específica, consulte um profissional.</strong></p>  
+          <h3>Artigos e Publicações</h3>  
+          <p><strong>Recomendações de Leitura:</strong> Explore nossa lista de livros recomendados sobre saúde mental e bem-estar. <strong>Ler é ótimo, mas um profissional pode oferecer suporte personalizado.</strong></p>  
+          <p><strong>Artigos Educativos:</strong> Acesse artigos sobre temas atuais em saúde mental e bem-estar. <strong>Use como complemento ao acompanhamento profissional.</strong></p>  
+ (secção) 
+
+  * secção id= "projetos" classe="conteúdo de contentores">  
+          <img src="URL_DA_IMAGEM_PROJETOS.jpg" alt="Imagem Projetos">  
+          <h2>Projetos e Iniciativas</h2>  
+          <h3>Grupos de Estudo</h3>  
+          <p>Participe de nossos grupos de estudo online e colabore com outras pessoas interessadas em saúde mental. <strong>Grupos de estudo são ótimos, mas não substituem a ajuda profissional.</strong></p>  
+          <h3>Programas de Conscientização</h3>  
+          <p>Conheça nossos programas de conscientização sobre saúde mental, voltados para escolas, empresas e comunidades. <strong>A conscientização é o primeiro passo, mas a orientação profissional é fundamental.</strong></p>  
+          <h3>Colaborações e Parcerias</h3>  
+          <p>Junte-se a nós em projetos colaborativos para expandir o conhecimento em saúde mental. <strong>A colaboração é valiosa, mas o apoio profissional é essencial.</strong></p>  
+ (secção) 
+
+  * secção id= "contact" classe= "conteúdo do contentor">  
+          <img src="URL_DA_IMAGEM_CONTATO.jpg" alt="Imagem Contato">  
+          <h2>Contato</h2>  
+          <h3>Fale Conosco</h3>  
+          <p>Se você tiver alguma dúvida, sugestão ou quiser compartilhar sua experiência, entre em contato conosco.</p>  
+          <p><strong>Email:</strong> contato@mentessaudaveis.com</p>  
+  * P = forte>Telefone: </forte = 1234-5678</p>  
+         <p><strong>Endereço:</strong> Rua da Saúde, 123, São Paulo 
